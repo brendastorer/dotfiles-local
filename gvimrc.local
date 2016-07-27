@@ -1,0 +1,13 @@
+colorscheme anderson
+set guifont=Monaco:h16
+
+let g:NERDTreeWinPos = "right"
+"
+" Removes right hand scroll bar
+set guioptions-=r
+
+" Removes left hand scroll bar
+set guioptions-=L
+
+" displays <% %> correctly
+autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>"

@@ -1,0 +1,4 @@
+export VISUAL="subl -w"
+export PATH="./bin:$PATH"
+export PATH="/opt/homebrew-cask/Caskroom/libreoffice/5.1.3/Applications/LibreOffice.app/Contents/MacOS:$PATH"
+export GPG_AGENT_INFO="$HOME/.gnupg/S.gpg-agent::1"
