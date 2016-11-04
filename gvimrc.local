@@ -11,3 +11,5 @@ set guioptions-=L
 
 " displays <% %> correctly
 autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>"
+
+autocmd FileType qf wincmd J
