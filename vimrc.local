@@ -5,3 +5,7 @@ autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>"
 
 " move quickfix to the bottom
 autocmd FileType qf wincmd J
+
+let g:syntastic_mode_map = { 'mode': 'passive',
+                           \ 'active_filetypes': [],
+                           \ 'passive_filetypes': [] }
