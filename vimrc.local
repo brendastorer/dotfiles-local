@@ -1,0 +1,7 @@
+let g:NERDTreeWinPos = "right"
+
+" displays <% %> correctly
+autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>"
+
+" move quickfix to the bottom
+autocmd FileType qf wincmd J
